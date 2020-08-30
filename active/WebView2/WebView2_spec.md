@@ -79,7 +79,7 @@ private async void Button_Click(object sender, RoutedEventArgs e)
 ```
 
 ## WebMessageReceived:
-Scripts in the WebView2 content can use window.chrome.webview.postMessage.postMessage(“Message”) with JSON parameters to send information back to your app. To receive these messages, handle the WebMessageReceived event.
+Scripts in the WebView2 content can use window.chrome.webview.postMessage(“Message”) with JSON parameters to send information back to your app. To receive these messages, handle the WebMessageReceived event.
 
 
 ```
